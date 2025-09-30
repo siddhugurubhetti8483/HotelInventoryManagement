@@ -1,0 +1,59 @@
+# Build results
+bin/
+obj/
+out/
+Debug/
+Release/
+x64/
+x86/
+[Aa]rtifacts/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code / Visual Studio
+.idea/
+.vscode/
+*.vspscc
+.vs/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Package directories
+packages/
+*.nupkg
+*.snupkg
+
+# Cache
+*.dll
+*.pdb
+*.cache
+*.tmp
+*.bak
+*.swp
+
+# Publish output
+publish/
+wwwroot/lib/
+
+# Secrets (IMPORTANT)
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# MongoDB or sensitive configs
+*.key
+*.pem
+*.crt
+
+# Node (agar frontend bhi same repo me ho)
+node_modules/
+dist/
